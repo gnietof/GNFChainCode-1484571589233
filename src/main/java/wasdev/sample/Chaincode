@@ -1,0 +1,25 @@
+import org.hyperledger.fabric.sdk.shim.ChaincodeBase;
+import org.hyperledger.fabric.sdk.shim.ChaincodeStub;
+
+
+public class ChainApp extends ChaincodeBase {
+
+	@Override
+	public String getChaincodeID() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String query(ChaincodeStub arg0, String arg1, String[] arg2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String run(ChaincodeStub arg0, String arg1, String[] arg2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
